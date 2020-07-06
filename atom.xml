@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vip1lola.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-06T09:06:30.625Z</updated>
+    <updated>2020-07-06T09:10:48.570Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vip1lola.github.io"/>
     <link rel="self" href="https://vip1lola.github.io/atom.xml"/>
@@ -11,11 +11,11 @@
     <icon>https://vip1lola.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[提示:安装 macOS xxxx应用程序副本已损坏，不能用来安装macOS,应用程序副本不能验证 它在下载过程中可能已遭破坏或篡改]]></title>
-        <id>https://vip1lola.github.io/ti-shi-an-zhuang-macos-xxxx-ying-yong-cheng-xu-fu-ben-yi-sun-pi-bu-neng-yong-lai-an-zhuang-macosying-yong-cheng-xu-fu-ben-bu-neng-yan-zheng-ta-zai-xia-zai-guo-cheng-zhong-ke-neng-yi-zao-po-pi-huo-cuan-gai/</id>
-        <link href="https://vip1lola.github.io/ti-shi-an-zhuang-macos-xxxx-ying-yong-cheng-xu-fu-ben-yi-sun-pi-bu-neng-yong-lai-an-zhuang-macosying-yong-cheng-xu-fu-ben-bu-neng-yan-zheng-ta-zai-xia-zai-guo-cheng-zhong-ke-neng-yi-zao-po-pi-huo-cuan-gai/">
+        <title type="html"><![CDATA[和我一起白嫖Adobe全家桶]]></title>
+        <id>https://vip1lola.github.io/4/</id>
+        <link href="https://vip1lola.github.io/4/">
         </link>
-        <updated>2020-07-06T09:03:55.000Z</updated>
+        <updated>2020-06-21T09:07:09.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[送完GTA5送文明6，Epic这一操作我i了]]></title>
@@ -30,5 +30,12 @@
         <link href="https://vip1lola.github.io/1/">
         </link>
         <updated>2020-05-08T08:54:25.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[提示:安装 macOS xxxx应用程序副本已损坏，不能用来安装macOS,应用程序副本不能验证 它在下载过程中可能已遭破坏或篡改]]></title>
+        <id>https://vip1lola.github.io/3/</id>
+        <link href="https://vip1lola.github.io/3/">
+        </link>
+        <updated>2019-06-09T09:03:55.000Z</updated>
     </entry>
 </feed>

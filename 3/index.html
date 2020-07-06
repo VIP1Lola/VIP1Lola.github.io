@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    关于 | Gridea
+    提示:安装 macOS xxxx应用程序副本已损坏，不能用来安装macOS,应用程序副本不能验证 它在下载过程中可能已遭破坏或篡改 | Gridea
 </title>
 <link rel="shortcut icon" href="https://vip1lola.github.io/favicon.ico?v=1594026636871">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -99,26 +99,25 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            关于
+                            提示:安装 macOS xxxx应用程序副本已损坏，不能用来安装macOS,应用程序副本不能验证 它在下载过程中可能已遭破坏或篡改
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2019-01-25</time>
+                            <time class="post-time">2019-06-09</time>
                             
                         </div>
                         
                                 <div class="post-content">
-                                    <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>由于我的WordPress服务器空间不足，所以被迫迁移到GitHub，如果访问慢，属于正常现象。</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>本站博主Mlallor(一个奋力向前的学生)</p>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<p>电脑技术、java初步学习</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>本人有些忙加我QQ:639388807<br>
-也可以邮箱联系我:wyb639388807@outlook.com</p>
+                                    <p>当我看到这个是瞬间失望了下了5小时的镜像尽然不能用。然后我又重新下了一遍，还是这样我开始以为是我的电脑问题，看到别人也是这样，感觉不是。<br>
+后来觉得不是。<br>
+然后呢？我想到我插了了USB网卡。把他拔下来试试。重启了一下，还真管用。<br>
+之后研究了一下发现<br>
+出现这个错误的原因是在于旧版macOS 安装镜像中的证书过期，并且苹果没有更新证书日期。最早我遇到这个问题是在安装10.12的时候，没想到现在很多朋友在安装10.13、10.14依然会出现这个情况，当然，该问题也会出现在OS X 10.11.X，或者Yosemite 10.10.X。</p>
+<blockquote class="wp-block-quote">处理方案</blockquote>
+一、断网，有网线的拔网线，WIFI的点击WiFi图标关闭
+二、重新从制作的启动U盘进入到如下界面，然后在终端里面修改时间，请完全按照代码操作，代码：“date 122014102015.30或者date 032208102015.20或者date 0201010116”（代码不包含“”）按回车键确认。
+输入代码按回车后会出现类似的代码Sun Dec 14:10:30 PST 2015，如果提示其他的，就表示你的代码输入错了。
+<p>如果用上面的办法修改后还是不行，那么输入这一串代码试试。“date 062614102014.30”代码不包含“”。代码释义：06是月，26是日，14是时，10是分，2014是年，30是秒。、</p>
+<p>注意:参考上面的代码，修改时间，修改原则为：“安装版本发布日期后的一天左右，如果你不知道你安装的版本是什么时候发布的，请自行百度”。如果你安装的是老版本10.10建议改成20151220试试。10.12的系统版本建议用date 122014102015.30。10.14的系统版本建议用date 0201010116</p>
 
                                 </div>
                     </article>
@@ -132,49 +131,32 @@
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                        <!-- toc -->
-                        
-    <div class="toc-card i-card ">
-        <div class="toc-title i-card-title">目录</div>
-        <div class="toc-content">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
-</ul>
-</li>
-</ul>
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://vip1lola.github.io/images/avatar.png?v=1594026636871)">
+        </div>
+        <h1 class="id_card-title">
+            Gridea
+        </h1>
+        <h2 class="id_card-description">
+            温故而知新
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
 
         </div>
-        <script>
-            function locateCatelogList() {
-                /*获取文章目录集合,可通过:header过滤器*/
-                var alis = $('.post-content :header');
-                /*获取侧边栏目录列表集合**/
-                var sidebar_alis = $('.markdownIt-TOC a');
-                /*获取滚动条到顶部的距离*/
-                var scroll_height = $(window).scrollTop();
-                for (var i = 0; i < alis.length; i++) {
-                    /*获取锚点集合中的元素分别到顶点的距离*/
-                    var a_height = $(alis[i]).offset().top;
-                    if (a_height < scroll_height) {
-                        /*高亮显示*/
-                        sidebar_alis.removeClass('on');
-                        $(sidebar_alis[i]).addClass('on');
-                    }
-                }
-            }
-            $(function() {
-                /*绑定滚动事件 */
-                $(window).bind('scroll', locateCatelogList);
-            });
-        </script>
     </div>
     
-                            
+                                    
 
                 </div>
 
