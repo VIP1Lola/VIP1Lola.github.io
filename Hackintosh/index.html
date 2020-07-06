@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    提示:安装 macOS xxxx应用程序副本已损坏，不能用来安装macOS,应用程序副本不能验证 它在下载过程中可能已遭破坏或篡改 | Mallor的个人博客
+    黑苹果 | Mallor的个人博客
 </title>
 <link rel="shortcut icon" href="https://vip1lola.github.io/favicon.ico?v=1594027437660">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -19,7 +19,6 @@
 <script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
-        
 </head>
 
 <body>
@@ -94,50 +93,64 @@
     });
 </script>
 
-            <div id="main-content" class="post-detail main-container">
-                <!-- left -->
+            <div id="main-content" class="post-container main-container">
                 <div id="content" class="main-container-left">
-                    <article class="post i-card">
-                        <h2 class="post-title">
-                            提示:安装 macOS xxxx应用程序副本已损坏，不能用来安装macOS,应用程序副本不能验证 它在下载过程中可能已遭破坏或篡改
-                        </h2>
-                        <div class="post-info">
-                            <time class="post-time">2019-06-09</time>
-                            
-                                <a href="https://vip1lola.github.io/Hackintosh/" class="post-tag i-tag
-                            i-tag-other_3">
-                            #黑苹果
-                        </a>
-                                
-                        </div>
+                    
+    <div class="i-card">
+        <b>标签：#
+        黑苹果</b>
+    </div>
+    
+        
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://vip1lola.github.io/3/">
+                        提示:安装 macOS xxxx应用程序副本已损坏，不能用来安装macOS,应用程序副本不能验证 它在下载过程中可能已遭破坏或篡改
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2019-06-09</time>
+                    
+                        <a href="https://vip1lola.github.io/Hackintosh/" class="post-tag i-tag
+                            i-tag-other_1">
+            #黑苹果
+        </a>
                         
-                                <div class="post-content">
-                                    <p>当我看到这个是瞬间失望了下了5小时的镜像尽然不能用。然后我又重新下了一遍，还是这样我开始以为是我的电脑问题，看到别人也是这样，感觉不是。<br>
-后来觉得不是。<br>
-然后呢？我想到我插了了USB网卡。把他拔下来试试。重启了一下，还真管用。<br>
-之后研究了一下发现<br>
-出现这个错误的原因是在于旧版macOS 安装镜像中的证书过期，并且苹果没有更新证书日期。最早我遇到这个问题是在安装10.12的时候，没想到现在很多朋友在安装10.13、10.14依然会出现这个情况，当然，该问题也会出现在OS X 10.11.X，或者Yosemite 10.10.X。</p>
-<blockquote class="wp-block-quote">处理方案</blockquote>
+                </div>
+                <div class="post-article">
+                    
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            当我看到这个是瞬间失望了下了5小时的镜像尽然不能用。然后我又重新下了一遍，还是这样我开始以为是我的电脑问题，看到别人也是这样，感觉不是。
+后来觉得不是。
+然后呢？我想到我插了了USB网卡。把他拔下来试试。重启了一下，还真管用。
+之后研究了一下发现
+出现这个错误的原因是在于旧版macOS 安装镜像中的证书过期，并且苹果没有更新证书日期。最早我遇到这个问题是在安装10.12的时候，没想到现在很多朋友在安装10.13、10.14依然会出现这个情况，当然，该问题也会出现在OS X 10.11.X，或者Yosemite 10.10.X。
+处理方案
 一、断网，有网线的拔网线，WIFI的点击WiFi图标关闭
 二、重新从制作的启动U盘进入到如下界面，然后在终端里面修改时间，请完全按照代码操作，代码：“date 122014102015.30或者date 032208102015.20或者date 0201010116”（代码不包含“”）按回车键确认。
 输入代码按回车后会出现类似的代码Sun Dec 14:10:30 PST 2015，如果提示其他的，就表示你的代码输入错了。
-<p>如果用上面的办法修改后还是不行，那么输入这一串代码试试。“date 062614102014.30”代码不包含“”。代码释义：06是月，26是日，14是时，10是分，2014是年，30是秒。、</p>
-<p>注意:参考上面的代码，修改时间，修改原则为：“安装版本发布日期后的一天左右，如果你不知道你安装的版本是什么时候发布的，请自行百度”。如果你安装的是老版本10.10建议改成20151220试试。10.12的系统版本建议用date 122014102015.30。10.14的系统版本建议用date 0201010116</p>
+如果用上面的办法修改后还是不行，那么输入这一串代码试试。“date 062614102014.30”代码不包含“”。代码释义：06是月，26是日，14是时，10是分，2014是年，30是秒。、
+注意:参考上面的代码，修改时间，修改原则为：“安装版本发布日期后的一天左右，如果你不知道你安装的版本是什么时候发布的，请自行百度”。如果你安装的是老版本10.10建议改成20151220试试。10.12的系统版本建议用date 122014102015.30。10.14的系统版本建议用date 0201010116
 
-                                </div>
-                    </article>
-                    <!--  -->
-                    
-                            <div id="disqus_thread"></div>
-                            <div id="gitalk-container"></div>
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://vip1lola.github.io/3/">Read More ~</a>
+                            </div>
                 </div>
-                <!-- middle -->
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
                 <div class="main-container-middle"></div>
-                <!-- right -->
+                <!--  -->
                 <div id="sidebar" class="main-container-right">
+
+                    <!-- 个人信息 -->
                     
-                                <!-- id-card -->
-                                
     <div class="id_card i-card">
         <div class="id_card-avatar" style="background-image: url(https://vip1lola.github.io/images/avatar.png?v=1594027437660)">
         </div>
@@ -161,14 +174,20 @@
         </div>
     </div>
     
-                                    
+
+                        <!-- 公告栏 -->
+                        
+    <div class="notice-card i-card ">
+        <div class="notice-title i-card-title">公告</div>
+        <div class="notice-content">
+            本网站访问较慢属于正常现象，所以请耐心等待
+        </div>
+    </div>
+    
 
                 </div>
-
-
-
-
             </div>
+
 
 
             <div class="site-footer">
@@ -180,7 +199,6 @@
   hljs.initHighlightingOnLoad()
 </script>
 
-
     </div>
     <script>
         $('#sidebar').stickySidebar({
@@ -188,7 +206,6 @@
             // bottomSpacing: 60
         });
     </script>
-    
 </body>
 
 </html>
